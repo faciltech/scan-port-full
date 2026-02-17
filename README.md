@@ -9,7 +9,7 @@
 
 <img width="951" height="720" alt="image" src="https://github.com/user-attachments/assets/517b49e6-4487-4f70-9927-28a7b4521701" />
 
-<h2>###### MODO DE USO ##########</h2>
+<h2>MODO DE USO</h2>
 <p>O usuário digita em seu terminal linux a execução do script.</p>
 <p>Como no exemplo abaixo:</p>
   <spam>ex: ./portscan.py ou python3 portscan.py</spam>
@@ -25,12 +25,12 @@
 <p>Na opção <spam>0</spam> você pode setar a porta que desejar.</p>
 <p>Ao final da varredura, você terá a opção de fazer uma nova varredura ou finalizar escolhendo 1 ou 0 </p>
 
-<h2>############# COMO O SCRIPT REALIZA A VARREDURA ###########</h2>
+<h2>COMO O SCRIPT REALIZA A VARREDURA</h2>
 <p> Após o inicio da execução, o script faz a varredura nas portas setadas, utilizando o SOCK do python3, é importante lembrar que dessa forma o script passa a ser menos barulhente que 
 ferramentas como o Nmap entre outras dependendo do mode de uso, deste modo nosso scanner não completa o 3 Handshake, e faz um teste numa fração de segundo.</p>
 
 
-<h2>############# INSTALAÇÃO ###########</h2>
+<h2>INSTALAÇÃO</h2>
 <p>git clone git@github.com:faciltech/scan-port-full.git</p>
 </p>python portscan.py</p>
 
